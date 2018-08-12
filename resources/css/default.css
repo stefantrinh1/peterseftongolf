@@ -1,0 +1,249 @@
+/* Table of Contents
+
+- Base
+- Generic Stylers
+- Layout
+    = Recurring Content
+        > Navbar
+        > Carousel
+        > Footer
+    = Pages
+        > Home Pages
+        > Peter Sefton
+        > Book A Lessons
+        > Play With A Pro
+        > Contact
+        > Terms & Conditions
+        > Privacy Policy
+- Generic Buttons
+- Modules
+- States
+- Theme
+- Testers
+
+> hp = Home page
+> bl = book lesson page
+> pwp = Play With Pro
+
+ */
+/* ================       Base      ==================== */
+
+/* *{font-family: 'Cormorant Garamond', serif;
+  } */
+
+body{opacity: 0;
+     -webkit-transition: opacity 1.2s ease-in;
+     -moz-transition: opacity 1.2s ease-in;
+     -ms-transition: opacity 1.2s ease-in;
+     -o-transition: opacity 1.2s ease-in;
+     transition: opacity 1.2s ease-in;
+    }
+
+hr{border:0;
+  height:1px;
+  background-color: grey;
+  }
+
+  td{border: 1px solid grey;
+    padding: 2%;
+  }
+  th{border: 1px solid grey;
+    padding: 2%;
+  }
+
+
+/* =============     Generic Stylers     =============== */
+
+.fontsize{font-size: 14pt;}
+
+.mainfont{font-family: 'Cormorant Garamond', serif;}
+
+.secondfont{font-family: sans-serif;}
+
+.smallfontsize{font-size: 10pt;}
+
+.loading{opacity: 1;}
+
+.logo{margin:2% 0% 2%}
+
+.alert{display: none;}
+
+
+/* =======      Palette       ======== */
+/*
+#003663 - Dark Blue
+#f8c185 - Brownish Gold
+#EDF5E1 - Whiteish Cream
+#002b47 - Dark Dark Blue
+white
+red
+grey
+orange
+
+/* ================      Layout     ==================== */
+
+/* the layout is seperated into the different pages on the site. */
+
+/* ===========   Reoccuring Content  =========== */
+
+/* =======        Navbar      ======== */
+
+.navbarline{border-bottom: solid #003663 2px;
+           }
+
+/* =======      Carousel       ======= */
+
+.smallline{border-bottom: solid #003663 3px;
+           width: 20%;
+           margin: 2% auto 2%;
+          }
+
+/* =====      Footer      ===== */
+
+.footer{font-family: 'Cormorant Garamond', serif;
+        height: 40%;
+        color: white;
+        background-color: #333333;
+        margin: 0% 0% 0%;
+        border-top: #f8c185 solid 4px;
+       }
+
+/* ===========        Pages        =========== */
+
+/* =======      Home Page      ======= */
+
+.hp-petersefton{color:white;
+                background: url("../Pictures/Tile Photos/ps-banner.png");
+                background-size: cover;
+
+               }
+
+.hp-pricelist{color: white;
+             background: url("../Pictures/Tile Photos/pl-banner.JPG");
+             background-size:cover;
+
+            }
+
+.hp-playwithpro{color: white;
+                background: url("../Pictures/Tile Photos/pwp-banner.jpg");
+                background-size: cover;
+
+               }
+.hp-booklesson{color: white;
+               background: url("../Pictures/Tile Photos/bl-banner.JPG");
+               background-size: cover;
+
+              }
+
+.fb-banner{
+  position: relative;
+  width: 100%;
+  margin: 0 30%
+}
+@media(max-width:600px){
+  .fb-banner{
+      margin: 0 20%;}
+  }
+
+/* =====   Peter Sefton About Page   ===== */
+
+
+/* =======    Book A Lesson     ======= */
+
+
+.bl-enquiry{background: url("../Pictures/Tile Photos/ct-enquiry-bg.png");
+          /* background-color: #003663; */
+          text-align: center;
+          background-size: cover;
+              }
+
+
+.bl-lesson-screen{border: 2px solid grey;
+                  display: none;
+                 }
+
+/* =======   Play With A pro     ======= */
+
+.pwp-intro{background: url("../Pictures/Tile Photos/pwp-intro-bg.png");
+          }
+
+.pwp-prices{background: url("../Pictures/Tile Photos/ct-enquiry-bg.png")
+            }
+
+/* ===========   Contact    ========== */
+
+
+.contactinfoborder{border-top: #f8c185 solid 3px;
+                     border-bottom: #f8c185 solid 3px;
+                    }
+.formtrans{opacity: 0.75;
+          }
+
+
+/* =====   Terms and Conditions   ===== */
+
+.tctitles{color:red;
+         }
+
+
+/* =====      Privacy Policy      ===== */
+
+.privacytitles{color:orange;
+               margin: 2% 0 1%
+              }
+
+.privacytable{border: 1px solid grey;
+             }
+
+
+/* ================     Generic Buttons     ==================== */
+
+.btn-learnmore{color:#EDF5E1;
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                text-align: center;
+                border: 1px solid red;
+                width: 45%;
+                margin-right: 5% ;
+                padding: 1%;
+              }
+
+.btn-learnmore-inactive{color:#EDF5E1;
+                        position: absolute;
+                        bottom: 0;
+                        right:0;
+                        text-align: center;
+                        border: 1px solid red;
+                        width: 45%;
+                        margin-right: 5%;
+                        padding: 1%;
+                       }
+
+.btn-learnmore-active{background-color: red;
+                      color:white;
+                     }
+
+.btn-icons{background-color: #333333;
+           border-radius: 30%;
+           margin: 1.5%;
+          }
+
+.btn-carousel{background-color: grey;
+              max-height: 15%;
+              max-width: 7%;
+              margin:auto 0%;
+              border-radius: 20%;
+             }
+
+
+
+
+/* ================     Modules     ==================== */
+/* ================      State      ==================== */
+/* ================      Theme      ==================== */
+/* ================     Testers     ==================== */
+
+.backgroundtest{background-color: grey;}
+
+.bordertest{border: 3px solid red}
