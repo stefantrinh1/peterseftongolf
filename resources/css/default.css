@@ -144,15 +144,6 @@ orange
 
               }
 
-.fb-banner{
-  position: relative;
-  width: 100%;
-  margin: 0 30%
-}
-@media(max-width:600px){
-  .fb-banner{
-      margin: 0 20%;}
-  }
 
 /* =====   Peter Sefton About Page   ===== */
 
