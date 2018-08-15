@@ -1,0 +1,20 @@
+{
+  "name": "peterseftongolf",
+  "version": "1.0.1",
+  "description": "Professional Golfer's Website",
+  "main": "Sefton Golf Script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefantrinh1/peterseftongolf.git"
+  },
+  "author": "Stefan Trinh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stefantrinh1/peterseftongolf/issues"
+  },
+  "homepage": "https://github.com/stefantrinh1/peterseftongolf#readme",
+  "dependencies": {}
+}
