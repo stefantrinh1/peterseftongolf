@@ -67,12 +67,12 @@ var  slidetest =$(".bl-adult").css("display")
 function clearslides() {
   if ($(".bl-lesson-screen").css("display")=="none") {
     $(".bl-lesson-screen").show('bl-lesson-screen');}
-  $(".bl-adult").css("display","none");
-  $(".bl-junior").css("display","none");
-  $(".bl-playing").css("display","none");
-  $(".bl-group").css("display","none");
-  $(".bl-pwp").css("display","none");
-  $(".bl-custom").css("display","none");
+    $(".bl-adult").css("display","none");
+    $(".bl-junior").css("display","none");
+    $(".bl-playing").css("display","none");
+    $(".bl-group").css("display","none");
+    $(".bl-pwp").css("display","none");
+    $(".bl-custom").css("display","none");
 }
 
 $(".btn-bl-adult").click(function() {
