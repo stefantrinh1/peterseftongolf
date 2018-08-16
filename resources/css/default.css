@@ -193,12 +193,16 @@ orange
 
 /* =====      Privacy Policy      ===== */
 
-.privacytitles{color:orange;
-               margin: 2% 0 1%
+.privacytitles{
+  color:orange;
+              
               }
 
-.privacytable{border: 1px solid grey;
+.privacytable{
+  border: 1px solid grey;
+  table-layout: fixed;
              }
+
 
 
 /* ================     Generic Buttons     ==================== */
