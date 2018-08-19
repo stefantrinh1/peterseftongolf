@@ -59,11 +59,16 @@ td{ white-space: ;}
 
 .fontsize{font-size: 14pt;}
 
-.mainfont{font-family: 'Cormorant Garamond', serif;}
+.mainfont{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 15pt;
+}
 
 .secondfont{font-family: sans-serif;}
 
 .smallfontsize{font-size: 10pt;}
+
+.largefontsize{font-size: 16pt;}
 
 .loading{opacity: 1;}
 
@@ -165,7 +170,7 @@ orange
                   display: none;
                  }
 
-.lessonlist{padding: 0% 25%}                  
+.lessonlist{padding: 0% 25%}
 
 /* =======   Play With A pro     ======= */
 
@@ -195,7 +200,7 @@ orange
 
 .privacytitles{
   color:orange;
-              
+
               }
 
 .privacytable{
