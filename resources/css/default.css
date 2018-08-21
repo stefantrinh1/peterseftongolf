@@ -37,6 +37,7 @@ body{opacity: 0;
      -ms-transition: opacity 1.2s ease-in;
      -o-transition: opacity 1.2s ease-in;
      transition: opacity 1.2s ease-in;
+     padding-top: 40px;
     }
 
 hr{border:0;
