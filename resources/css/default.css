@@ -38,6 +38,7 @@ body{opacity: 0;
      -o-transition: opacity 1.2s ease-in;
      transition: opacity 1.2s ease-in;
      padding-top: 40px;
+     overflow-x: hidden;
     }
 
 hr{border:0;
